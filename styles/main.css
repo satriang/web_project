@@ -1,0 +1,89 @@
+/* main.css */
+
+
+.header {
+    background-image: url("../images/header.jpg");
+    color: #ffffff;
+    padding: 3vw;
+}
+.halaman {
+    background-image: url("../images/halaman.jpg");
+    color: #ffffff;
+    padding: 0.1vw;
+    margin-top: 1em;
+    text-align: center;
+}
+
+
+.container {
+  overflow: auto;
+  align-items: center;
+  margin-top: 2em;
+  text-align: center;
+  font-size: 1em;
+  font-weight: 300;
+  line-height: 1.6em;
+  font-family: 'Roboto condensed', sans-serif;
+  width: 75%;
+}
+
+.footer {
+    background-color: #a3a375;
+    color: #ffffff;
+    text-align: center;
+    font-size: 18;
+    padding: 2em;
+
+}
+.container  .col  {
+        width:  100%;
+    }
+.container .col1 {
+    width: 33%;
+    padding: 30px 3.15% 0;
+    float: left;
+}
+@media  screen  and (max-width: 800px)  {
+    .container  .col  {
+        width:  95%;
+    }
+    .container  .col1 {
+        width:  90%;
+    }
+  }
+ 
+img {
+    width:  60%;
+}
+
+/* TODO 4.1 - display the SFO image at 50vw */
+img#sfo {
+    transition: width 0.5s;
+    max-width:  50vw;
+}
+img#sfo1 {
+    transition: width 0.5s;
+    width:  50%;
+}
+
+/* TODO 5.1 - add a media query */
+
+@media  screen  and (max-width: 700px)  {
+    img#sfo {
+        max-width:  90vw;
+        width:  90vw;
+    }
+}
+figure {
+  margin: 1em 0 1em 0;
+
+}
+.bg-4 { 
+      background-color: #2f2f2f; /* Black Gray */
+      color: #fff;
+  }
+  a {
+    color:#000000;
+    font-family: arial;
+  }
+
