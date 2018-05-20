@@ -1,141 +1,91 @@
+<!DOCTYPE html>
 <html lang="en">
-<head>
 
-  <!-- TODO 3 - set the visual viewport -->
-  <meta name="viewport" content="width=device-width,  initial-scale=1">
- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  <head>
 
-  <title>Selamat Datang di Batik Mulyo</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-  <!-- TODO 6.1 - include custom Modernizr build -->
-  <script src="modernizr-custom.js"></script>
+    <title>Batik Mulyo</title>
 
-  <link rel="stylesheet" href="styles/main.css">
-</head>
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-<body>
-<nav class="navbar navbar-expand-md bg-dark navbar-dark">
-  <a class="navbar-brand" href="index.html">Batik Mulyo</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="collapsibleNavbar">
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" href="index.html">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="about.html">About Us</a>
-      </li>    
-    </ul>
-  </div>  
-</nav>
-<div class="header">
-  <h1>Toko Batik Mulyo</h1>
-</div>
-<div class="halaman">
-  <h3>Home</h3>
-</div>
-<div class="container">
-      <div class="col1">
-              <a href="">
-            <figure>
-              <img id="sfo1" src="images/batik1.jpg" alt="View from aircraft window near San Francisco airport">
-            </figure>
-              <h1>Motif Batik Mega Mendung</h1>
-              <p>Motif yang berasal dari kota Cirebon ini mempunyai ciri khas sendiri dalam membuat motif.</p>
-            </a>
-      </div> 
-      <div class="col1">
-              <a href="">
-            <figure>
-              <img id="sfo1" src="images/batik2.jpg" alt="View from aircraft window near San Francisco airport">
-            </figure>
-              <h1>Motif Batik Sekar Jagad</h1>
-              <p>Motif batik jenis ini berasal dari daerah Jawa, lebih tepatnya Yogyakarta.</p>
-            </a>
-      </div> 
-       <div class="col1">
-              <a href="">
-             <figure>
-              <img id="sfo1" src="images/batik2.jpg" alt="View from aircraft window near San Francisco airport">
-            </figure>
-              <h1>Motif Batik Sidomukti Magetan</h1>
-              <p>Motif batik asal kabupaten Magetan ini mempunyai motif dasar gambar bambu.</p>
-            </a>
-      </div> 
-       <div class="col1">
-              <a href="">
-             <figure>
-              <img id="sfo1" src="images/batik4.jpg" alt="View from aircraft window near San Francisco airport">
-            </figure>
-              <h1> Motif Batik Jepara</h1>
-              <p>Motif batik Jepara dapat dibedakan menjadi dua, yaitu motif lama serta motif baru..</p>
-            </a>
-      </div> 
-       <div class="col1">
-              <a href="">
-             <figure>
-              <img id="sfo1" src="images/batik5.jpg" alt="View from aircraft window near San Francisco airport">
-            </figure>
-              <h1>Motif Batik Solo</h1>
-              <p>Ciri khas batik dari solo yang sering disebut sebagai batik sogan yaitu warna motifnya yang kecokelatan.</p>
-            </a>
-      </div> 
-       <div class="col1">
-            <a href="">
-           <figure>
-            <img id="sfo1" src="images/batik6.jpg" alt="View from aircraft window near San Francisco airport">
-          </figure>
-            <h1>Motif Batik Tasik</h1>
-            <p> Batik memang bukan hanya ada di daerah Jawa saja, beragam jenis motif batik saat ini juga berkembang di Tanah Sunda.</p>
-          </a>
-      </div> 
-       <div class="col1">
-              <a href="">
-             <figure>
-              <img id="sfo1" src="images/batik7.jpg" alt="View from aircraft window near San Francisco airport">
-            </figure>
-              <h1>Motif Batik Malang</h1>
-              <p>Batik malang populer dengan motif batiknya yang cenderung cerah, seperti mempunyai warna dasar biru lalu di timpa dengan warna putih, lalu bahan berwarna putih di timpa dengan merah..</p>
-            </a>
-      </div> 
-       <div class="col1">
-              <a href="">
-             <figure>
-              <img id="sfo1" src="images/batik8.jpg" alt="View from aircraft window near San Francisco airport">
-            </figure>
-              <h1>Motif Batik Pekalongan</h1>
-              <p>Umumnya motif dari pekalongan dipengaruhi oleh kebudayaan-kebudayaan luar yang datang karena perdagangan.</p>
-            </a>
-      </div> 
-       <div class="col1">
-            <a href="">
-           <figure>
-            <img id="sfo1" src="images/batik9.jpg" alt="View from aircraft window near San Francisco airport">
-          </figure>
-            <h1>Motif Batik Pringgondani</h1>
-            <p>Nama batik pringgondani ini diambil dari nama rumahnya Gatotkaca anak Bimo/Werkudara. Motif batik pringgondani ini umumnya menampilkan corak gelap .</p>
-          </a>
-      </div> 
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
 
+    <!-- Custom styles for this template -->
+    <link href="css/business-casual.min.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <h1 class="site-heading text-center text-white d-none d-lg-block">
+      <span class="site-heading-lower text-primary mb-3">BATIK MULYO</span>
+    </h1>
+
+    <!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">Batik Mulyo</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item active px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="index.html">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="about.html">About Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="page-section clearfix">
+      <div class="container">
+        <div class="intro">
+          <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="img/intro.jpg" alt="">
+          <div class="intro-text left-0 text-center bg-faded p-5 rounded">
+            <h2 class="section-heading mb-4">
+              <span class="section-heading-upper">Batik Mulyo</span>
+              <span class="section-heading-lower">BATIK TRADISIONAL</span>
+            </h2>
+            <p class="mb-3">sebuah seni membuat garis dan titik yang akan membentuk suatu motif yang susunan motifnya terikat dengan suatu aturan dan dengan isen-isen tertentu
+            </p>
+            <div class="intro-button mx-auto">
+              <a class="btn btn-primary btn-xl" href="gallery.html">View Gallery!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer text-faded text-center py-5">
+      <div class="container">
+        <p class="m-0 small">Copyright &copy; Your Website 2018</p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  </body>
 </div>
 <div class="footer">
   <p>copyright © 2018 | Desain Theme Made By www.w3schools.com</p>
 </div>
-
-  if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('service-worker.js')
-    .then(function(registration) {
-      console.log('Registered:', registration);
-    })
-    .catch(function(error) {
-      console.log('Registration failed: ', error);
-    });
-  }
-  </script>
 </body>
 </html>
