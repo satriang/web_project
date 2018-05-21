@@ -87,5 +87,16 @@
 <div class="footer">
   <p>copyright © 2018 | Desain Theme Made By www.w3schools.com</p>
 </div>
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('service-worker.js')
+    .then(function(registration) {
+      console.log('Registered:', registration);
+    })
+    .catch(function(error) {
+      console.log('Registration failed: ', error);
+    });
+  }
+  </script>
 </body>
 </html>
